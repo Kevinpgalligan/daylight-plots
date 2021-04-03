@@ -8,9 +8,10 @@ import sys
 URL_FORMAT = "https://dateandtime.info/citysunrisesunset.php?id={country_id}&month={month}&year=2021"
 
 COUNTRY_TO_ID = {
-    "ireland": 2964574, # Dublin
-    "finland": 652590,  # Kittilä
-    "ecuador": 3652462  # Quito
+    "ireland": 2964574,  # Dublin
+    "finland": 652590,   # Kittilä
+    "ecuador": 3652462,  # Quito
+    "germany": 2867714,  # Munich
 }
 
 def scrape_month(country_id, month):
